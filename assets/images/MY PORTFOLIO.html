@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<!-- saved from url=(0064)file:///C:/Users/Admin/Desktop/My%20Project/Portfolio/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>MY PORTFOLIO</title>
+    
+    <meta name="portfolio" content="HTML,CSS,JS">
+    <meta name="author" content="Malathi">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/CSS" href="./MY PORTFOLIO_files/style.css">
+    <link rel="stylesheet" href="./MY PORTFOLIO_files/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="heading">MY RESUME PORTFOLIO</h1>
+    </header>
+    <main class="main_content">
+        <!--<div><img class="img_div" title="banner" alt="banner_img_web_development" src="assets/images/web_development.jpg"></div>-->
+        <section class="self_intro_content">
+            <div><img class="img_div" title="banner2" alt="banner_img_web_development" src="./MY PORTFOLIO_files/web_development.jpg"></div>
+            <div class="intro_content">
+                <img class="my_photo" title="my_photo" alt="my_photo" src="./MY PORTFOLIO_files/my_photo_1.PNG">
+                <div class="intro_details">
+                    <h2>I'm MALATHI CHANDRASEKAR</h2>
+                    <p id="expand_data">I'm from SIVAKASI. I have done my bachelor degree in KARPAGAM COLLEGE OF ENGINEERING in the stream of COMPUTER SCIENCE. I had an INTERNSHIP as a LEARNING PEROID in MOONRAFT INNOVATION LABS, BANGALORE for 1 year. My short team goal
+                        is to work in the company to enhance my knowledge and skills and work hard and sometimes smart for the organisation. My strength is confidence and punctual and I will be dedicated to my work.</p>
+                </div>
+            </div>
+            <div class="details_button">
+                <button type="button" id="career_obj">CAREER OBJECTIVE</button>
+                <button type="button" id="education_btn">EDUCATION</button>
+                <button type="button" id="skills_btn">SKILLS</button>
+                <button typ="button" id="participation">PARTICIPATION</button>
+                <button typ="button" id="certification">CERTIFICATION</button>
+            </div>
+            <!-- modal display as career objectives-->
+            <div id="modal_career" class="modal_career">
+                <div class="career_objective">
+                    <span class="close">×</span>
+                    <h2>CAREER OBJECTIVE</h2>
+                    <p>To effectively utilize my creative abilities towards achieving company’s objectives. I am a quick learner, dedicated, interested and highly motivated to accept challenges and pursue perfection in my work. I wish to use these to contribute
+                        to the growth and success of the organization, which in turn would lead to continued encouragement of my professional growth.</p>
+                    <p><b><q>Action speak louder than words</q></b>– I prove this proverb by my sincerity.</p>
+                </div>
+            </div>
+            <!-- modal display as Education -->
+            <div id="modal_education" class="modal_education">
+                <div class="education">
+                    <span id="close" class="close ">×</span>
+                    <h2>ACADEMIC DETAILS</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>COURSE</th>
+                                <th>INSITUTION</th>
+                                <th>UNIVERSITY / BOARD</th>
+                                <th>YEAR OF COMPLETION</th>
+                                <th>CGPA / MARKS %</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>B.E</td>
+                                <td>Karpagam College of Engineering,Coimbatore</td>
+                                <td>Anna University</td>
+                                <td>2020</td>
+                                <td>8.3 (upto 7th semester)</td>
+                            </tr>
+                            <tr>
+                                <td>XII</td>
+                                <td>S.H.N.V.Matric Hr. Sec. School</td>
+                                <td>State Board</td>
+                                <td>2016</td>
+                                <td>1051 =&gt; 87.583%</td>
+                            </tr>
+                            <tr>
+                                <td>X</td>
+                                <td>S.H.N.V.Matric Hr. Sec. School</td>
+                                <td>State Board</td>
+                                <td>2014</td>
+                                <td>478 =&gt; 95.8%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- modal display as Skills-->
+            <div id="modal_skills" class="modal_skills" style="display: block;">
+                <div class="skills">
+                    <span class="close">×</span>
+                    <h3>SKILLS</h3>
+                    <div class="btn_skill_div">
+                        <button type="button" class="btn_skill" id="technical">TECHNICAL PROFICIENCY</button>
+                        <button type="button" class="btn_skill" id="ide">FAMILIAR IDE</button>
+                    </div>
+                </div>
+            </div>
+            <!-- modal for technical skills-->
+            <div id="data_tech" class="data_tech" style="display: block;padding-bottom: 100px;">
+                <div class="tech_div">
+                    <span class="close_btn">×</span>
+                    <h3>TECHNICAL PROFICIENCY</h3>
+                    <table>
+                        <tbody><tr>
+                            <td>PROGRAMMING LANGUAGES</td>
+                            <td>C, C++, PYTHON, JAVA.</td>
+                        </tr>
+                        <tr>
+                            <td>FRONT END TECHNOLOGIES</td>
+                            <td>HTML, CSS, JAVASCRIPT, JQUERY, REACTJS</td>
+                        </tr>
+                        <tr>
+                            <td>BACK END TECHNOLOGIES</td>
+                            <td>MYSQL SERVER, PHP, DRUPAL</td>
+                        </tr>
+                        <tr>
+                            <td>EDITING TECHNOLOGIES</td>
+                            <td>MS-WORD, MS-POWERPOINT, MS-EXCEL, WPS OFFICE.</td>
+                        </tr>
+                        <tr>
+                            <td>OPERATING SYSTEM</td>
+                            <td>WINDOWS 7 / 8 / 9 / 10, LINUX.</td>
+                        </tr>
+                        <tr>
+                            <td>QUESTION MODELLING</td>
+                            <td>HACKERRANK, QUIZIZZ.COM, KAHOOT.IT</td>
+                        </tr>
+                    </tbody></table>
+                    <h3>RATING FOR EACH TECHNOLOGIES (based on my knowledge)</h3>
+                    <div class="table_div">
+                        <table class="star_rating">
+                            <tbody><tr>
+                                <td rowspan="4"><img title="img_program" alt="img_program" src="./MY PORTFOLIO_files/programming.jpg"></td>
+                                <td>C</td>
+                                <td><span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span></td>
+                            </tr>
+                            <tr>
+                                <td>C++</td>
+                                <td><span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span></td>
+                            </tr>
+                            <tr>
+                                <td>PYTHON</td>
+                                <td><span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span></td>
+                            </tr>
+                            <tr>
+                                <td>JAVA</td>
+                                <td><span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span></td>
+                            </tr>
+                        </tbody></table>
+                        <table>
+                            <tbody><tr>
+                                <td>HTML</td>
+                                <td><span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span></td>
+                            </tr>
+                            <tr>
+                                <td>CSS</td>
+                                <td><span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span></td>
+                            </tr>
+                            <tr>
+                                <td>JAVASCRIPT</td>
+                                <td><span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span></td>
+                            </tr>
+                            <tr>
+                                <td>JQUERY</td>
+                                <td><span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span></td>
+                            </tr>
+                            <tr>
+                                <td>REACTJS</td>
+                                <td><span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span></td>
+                            </tr>
+                            <tr>
+                                <td>MYSQL SERVER</td>
+                                <td><span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span></td>
+                            </tr>
+                            <tr>
+                                <td>PHP</td>
+                                <td><span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span></td>
+                            </tr>
+                            <tr>
+                                <td>DRUPAL</td>
+                                <td><span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span></td>
+                            </tr>
+                        </tbody></table>
+                    </div>
+                </div>
+            </div>
+            <!-- modal for familiar ide-->
+            <div id="data_ide" class="data_ide">
+                <div class="ide_div">
+                    <span class="close_btn">×</span>
+                    <h3>FAMILIAR IDE</h3>
+                    <table>
+                        <tbody><tr>
+                            <td>WEB TECHNOLOGIES</td>
+                            <td>NOTEPAD, NOTEPAD++, VISUAL STUDIO CODE, ECLIPSE</td>
+                        </tr>
+                        <tr>
+                            <td>WEB APPLICATION SERVER TECHNOLOGY</td>
+                            <td>BITNAMI, DRUSH, COMPOSER.</td>
+                        </tr>
+                        <tr>
+                            <td>PROGRAMMING TECHNOLOGY</td>
+                            <td>TURBO C++, DEV C++, CODE BLOCK, PYTHON IDE</td>
+                        </tr>
+                    </tbody></table>
+
+                </div>
+            </div>
+            <!-- modal for participation-->
+            <div id="modal_participation" class="modal_participation">
+                <div class="participation_div">
+                    <span class="close">×</span>
+                    <h3>CO-CURRICULAR ACTIVITIES</h3>
+                    <h3>PARTICIPATION</h3>
+                    <ul class="part_style">
+                        <li>Participated in “DENNIS RITCHIE SEASON-I” in a C programming event.</li>
+                        <li>Participation certificate in ACM ICPC CHENNAI PROVINCIAL PROGRMMING CONTEST in KCG College of Technology.</li>
+                        <li>Participation Certification in the Workshop “Artificial Intelligence in IOT” at SSN College of Engineering.</li>
+                        <li>Participation Certificate in the Data Structures, Micro Controller and its Applications – an online contest on 28 th Feb 2018 by TI (Texas Instruments) University Program</li>
+                        <li>Participation Certificate in the CPP, C – an online training by Spoken Tutorial Project, IIT Bombay, funded by National Mission on Education through ICT, MHRD, Govt., of India.</li>
+                        <li>Participation Certification in the Workshop “Android Application Development with Kotlin” at Kumaraguru Institution.</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- modal for certification-->
+            <div id="modal_certification" class="modal_certification">
+                <div class="certification_div">
+                    <span class="close">×</span>
+                    <h3>CO-CURRICULAR ACTIVITIES</h3>
+                    <h3>CERTIFICATION</h3>
+                    <ul class="part_style">
+                        <li>Certification in MENSA EXAM with 81%.</li>
+                        <li>Certification Of Excellence in “PROJECT DEPLOYMENT SUMMIT-2K17” CONDUCTED ON 26 th March 2017 by IT Academy.</li>
+                        <li>Certification of Completion in “FOUNDATION PROGRAM ON PYTHON” and “SOFT SKILLS” under the aegis of the Infosys Campus Connect Program at Karpagam College of Engineering.</li>
+                        <li>Certification for Membership in SEEE (Membership ID: IND TN 9999 9999 7942)</li>
+                        <li>Certification Grade “A” in Computer Programming in the AMCAT Exam.</li>
+                        <li>Achieved Silver level in Problem Solving, Java, Python and Bronze level in 30 days of Code, C language on HACKERRANK.</li>
+                        <li>Certification of completion in “ FOUNDATION LEVEL IN DATA STRUCTURES AND ALGORITHM PROGRAMME” on CODECHEF.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="resume_main_content">
+            <div><img class="img_div" title="banner2" alt="banner_img_web_development" src="./MY PORTFOLIO_files/web_development_2.jpg"></div>
+            <div class="details">
+                <div class="experience">
+                    <h4>INTERNSHIP / EXPERIENCE</h4>
+                    <ul>
+                        <li>I had an INTERNSHIP as a LEARNING PEROID in MOONRAFT INNOVATION LABS, Bangalore for one year(july-19 to june-20).</li>
+                        <li>I learnt about Front-end Development</li>
+                    </ul>
+                </div>
+                <div class="interest ">
+                    <h4>FIELD OF INTEREST</h4>
+                    <ul>
+                        <li>Front-end Webpage Creations.</li>
+                        <li>Fundamentals of Java, Python, Drupal.</li>
+                        <li>Solve Problems using Programming.</li>
+                        <li>Learning different Framework.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="footer ">
+
+    </footer>
+    <script src="./MY PORTFOLIO_files/script.js.download"></script>
+
+
+</body></html>
