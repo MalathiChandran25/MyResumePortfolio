@@ -10,6 +10,9 @@ var modal_div_ide = document.getElementById("data_ide");
 var modal_rate_program = document.getElementById("modal_rating_program");
 var modal_rate_front = document.getElementById("modal_rating_front");
 
+var modal_self_intro = document.getElementById("modal_self_intro");
+var modal_project = document.getElementById("modal_project");
+
 // Get the button that opens the modal
 var btn = document.getElementById("career_obj");
 var edu_btn = document.getElementById("education_btn");
@@ -21,6 +24,9 @@ var tech_btn = document.getElementById("technical");
 var ide_btn = document.getElementById("ide");
 var pro_btn = document.getElementById("rate_program");
 var front_btn = document.getElementById("rate_front");
+
+var intro_div = document.getElementById("self_intro");
+var project = document.getElementById("project_topics");
 
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
@@ -64,7 +70,22 @@ front_btn.onclick = function() {
     modal_rate_front.style.display = "block";
 }
 
-// When the user clicks on <span> (x), close the modal
+
+intro_div.onmouseenter = function() {
+    modal_self_intro.style.display = "block";
+}
+
+intro_div.onmouseleave = function() {
+    modal_self_intro.style.display = "none";
+}
+project.onmouseenter = function() {
+    modal_project.style.display = "block";
+}
+
+project.onmouseleave = function() {
+        modal_project.style.display = "none";
+    }
+    // When the user clicks on <span> (x), close the modal
 span.onclick = function() {
     modal.style.display = "none";
 }

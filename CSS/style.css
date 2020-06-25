@@ -22,9 +22,44 @@
     z-index: -1;
 }
 
-.name {
+.name_div {
+    font-size: 100px;
+    margin: 0;
     color: red;
 }
+
+.name_h5 {
+    font-size: 25px;
+    margin: 0;
+    color: red;
+}
+
+.intro_div {
+    display: flex;
+}
+
+.intro_topics {
+    width: 120px;
+    margin: 20px;
+    border-radius: 50%;
+    border: 1px solid red;
+    background-color: lightcoral;
+}
+
+.intro_topics p {
+    margin: 20px;
+    text-align: center;
+}
+
+#self_intro,
+#project_topics {
+    cursor: pointer;
+}
+
+
+/* .name {
+    color: red;
+} */
 
 
 /* .main_content {
@@ -106,7 +141,9 @@
 .modal_certification,
 .modal_program,
 .modal_rating_program,
-.modal_rating_front {
+.modal_rating_front,
+.modal_self_intro,
+.modal_project {
     display: none;
     /* Hidden by default */
     position: fixed;
@@ -137,7 +174,9 @@
 .certification_div,
 .program,
 .rating_program,
-.rating_front {
+.rating_front,
+.self_intro_con,
+.project {
     background-color: #fefefe;
     margin: 0 auto;
     /* margin-bottom: 100px; */
