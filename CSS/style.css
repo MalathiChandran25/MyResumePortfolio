@@ -143,6 +143,7 @@
 .modal_program,
 .modal_rating_program,
 .modal_rating_front,
+.modal_rating_back,
 .modal_self_intro,
 .modal_project,
 .modal_bio_data {
@@ -177,6 +178,7 @@
 .program,
 .rating_program,
 .rating_front,
+.rating_back,
 .self_intro_con,
 .project,
 .bio_data_content {
@@ -234,6 +236,17 @@ table {
     padding: 10px;
 }
 
+.btn_skill_div button {
+    background-color: burlywood;
+    padding: 10px;
+}
+
+.btn_skill_div button:hover {
+    background-color: orange;
+    color: white;
+    padding: 10px;
+}
+
 .table_div {
     display: flex;
     justify-content: space-between;
@@ -275,6 +288,24 @@ div>h3 {
 
 .part_style {
     line-height: 2em;
+}
+
+
+/*button in rating */
+
+.rating_btn {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.rating_btn button {
+    padding: 10px;
+    background-color: lightskyblue;
+}
+
+.rating_btn button:hover {
+    background-color: blue;
+    color: white;
 }
 
 

@@ -9,6 +9,7 @@ var modal_div_tech = document.getElementById("data_tech");
 var modal_div_ide = document.getElementById("data_ide");
 var modal_rate_program = document.getElementById("modal_rating_program");
 var modal_rate_front = document.getElementById("modal_rating_front");
+var modal_rate_back = document.getElementById("modal_rating_back");
 
 var modal_self_intro = document.getElementById("modal_self_intro");
 var modal_project = document.getElementById("modal_project");
@@ -25,6 +26,7 @@ var tech_btn = document.getElementById("technical");
 var ide_btn = document.getElementById("ide");
 var pro_btn = document.getElementById("rate_program");
 var front_btn = document.getElementById("rate_front");
+var back_btn = document.getElementById("rate_back");
 
 var intro_div = document.getElementById("self_intro");
 var project = document.getElementById("project_topics");
@@ -41,6 +43,7 @@ var spanclose_1 = document.getElementsByClassName("close_btn")[0];
 var spanclose_2 = document.getElementsByClassName("close_btn")[1];
 var spanrateclose_1 = document.getElementsByClassName("rate_close_btn")[0];
 var spanrateclose_2 = document.getElementsByClassName("rate_close_btn")[1];
+var spanrateclose_3 = document.getElementsByClassName("rate_close_btn")[2];
 
 // When the user clicks the button, open the modal 
 btn.onclick = function() {
@@ -71,7 +74,9 @@ pro_btn.onclick = function() {
 front_btn.onclick = function() {
     modal_rate_front.style.display = "block";
 }
-
+back_btn.onclick = function() {
+    modal_rate_back.style.display = "block";
+}
 
 intro_div.onmouseenter = function() {
     modal_self_intro.style.display = "block";
@@ -123,6 +128,9 @@ spanrateclose_1.onclick = function() {
 spanrateclose_2.onclick = function() {
     modal_rate_front.style.display = "none";
 }
+spanrateclose_3.onclick = function() {
+    modal_rate_back.style.display = "none";
+}
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
@@ -152,5 +160,8 @@ window.onclick = function(event) {
     }
     if (event.target == modal_rate_front) {
         modal_rate_front.style.display = "none";
+    }
+    if (event.target == modal_rate_back) {
+        modal_rate_back.style.display = "none";
     }
 }
