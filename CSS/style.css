@@ -52,7 +52,8 @@
 }
 
 #self_intro,
-#project_topics {
+#project_topics,
+#bio_data {
     cursor: pointer;
 }
 
@@ -143,7 +144,8 @@
 .modal_rating_program,
 .modal_rating_front,
 .modal_self_intro,
-.modal_project {
+.modal_project,
+.modal_bio_data {
     display: none;
     /* Hidden by default */
     position: fixed;
@@ -176,7 +178,8 @@
 .rating_program,
 .rating_front,
 .self_intro_con,
-.project {
+.project,
+.bio_data_content {
     background-color: #fefefe;
     margin: 0 auto;
     /* margin-bottom: 100px; */

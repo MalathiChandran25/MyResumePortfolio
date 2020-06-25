@@ -12,6 +12,7 @@ var modal_rate_front = document.getElementById("modal_rating_front");
 
 var modal_self_intro = document.getElementById("modal_self_intro");
 var modal_project = document.getElementById("modal_project");
+var modal_bio_data = document.getElementById("modal_bio_data");
 
 // Get the button that opens the modal
 var btn = document.getElementById("career_obj");
@@ -27,6 +28,7 @@ var front_btn = document.getElementById("rate_front");
 
 var intro_div = document.getElementById("self_intro");
 var project = document.getElementById("project_topics");
+var bio_data = document.getElementById("bio_data");
 
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
@@ -81,11 +83,17 @@ intro_div.onmouseleave = function() {
 project.onmouseenter = function() {
     modal_project.style.display = "block";
 }
-
 project.onmouseleave = function() {
-        modal_project.style.display = "none";
-    }
-    // When the user clicks on <span> (x), close the modal
+    modal_project.style.display = "none";
+}
+bio_data.onmouseenter = function() {
+    modal_bio_data.style.display = "block";
+}
+bio_data.onmouseleave = function() {
+    modal_bio_data.style.display = "none";
+}
+
+// When the user clicks on <span> (x), close the modal
 span.onclick = function() {
     modal.style.display = "none";
 }
