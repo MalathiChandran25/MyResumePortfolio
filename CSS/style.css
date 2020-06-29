@@ -36,6 +36,7 @@
 
 .intro_div {
     display: flex;
+    justify-content: space-evenly;
 }
 
 .intro_topics {
@@ -87,7 +88,7 @@
     /* width: 100%; */
     display: flex;
     justify-content: space-evenly;
-    padding: 50px;
+    padding: 30px;
     /* height: 100px; */
 }
 
@@ -99,7 +100,7 @@
 }
 
 .details_button {
-    padding: 30px;
+    padding: 15px;
     display: flex;
     justify-content: space-around;
 }
@@ -369,4 +370,60 @@ footer {
 .footer_div_img {
     width: 50px;
     height: 50px;
+}
+
+
+/*media queries*/
+
+@media only screen and (min-device-width: 426px) and (max-device-width: 768px) {
+    .ling_img_obj,
+    .link_obj {
+        width: 50px;
+    }
+    .my_photo {
+        width: 150px;
+    }
+    .intro_topics {
+        margin: 5px;
+    }
+    .intro_topics p {
+        margin: 5px;
+    }
+    .intro_div {
+        margin: 20px;
+    }
+}
+
+
+/*media for mobiles*/
+
+@media only screen and (max-width: 426px) {
+    .details_button {
+        display: inline;
+    }
+    .details_button button {
+        width: 250px;
+        padding: 20px;
+        margin: 0 auto;
+    }
+    .my_photo {
+        margin-top: 25px;
+        width: 100px;
+        height: 200px;
+    }
+    .intro_content {
+        padding: 20px;
+    }
+    .name_div {
+        font-size: 40px;
+    }
+    .intro_div {
+        display: block;
+    }
+    .intro_topics {
+        margin: 10px;
+    }
+    .intro_topics p {
+        margin: 5px;
+    }
 }
